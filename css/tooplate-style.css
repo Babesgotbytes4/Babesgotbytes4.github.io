@@ -294,7 +294,7 @@ ul.cd-hero-slider {
 
 .blog-item img {
 	width: 50%;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .blog-item .thumb {
@@ -416,7 +416,7 @@ ul.cd-hero-slider {
 }
 
 #contact {
-	background-image: url(../img/contact-bg.png);
+	background-image: url(../img/event.jpg);
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
@@ -432,7 +432,8 @@ ul.cd-hero-slider {
 	padding-left: 15px;
 	font-size: 13px;
 	color: #fff;
-	background-color: rgba(250, 250, 250, 0.1);
+	background-color: #202628;	
+	/* background-color: rgba(250, 250, 250, 0.1); */
 	outline: none;
 	border: none;
 	box-shadow: none;
@@ -447,7 +448,7 @@ ul.cd-hero-slider {
 	padding-left: 15px;
 	font-size: 13px;
 	color: #fff;
-	background-color: rgba(250, 250, 250, 0.1);
+	background-color:#202628;	
 	outline: none;
 	border: none;
 	box-shadow: none;
