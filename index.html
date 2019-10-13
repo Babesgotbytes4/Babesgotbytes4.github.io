@@ -326,31 +326,17 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <form id="contact" action="mailto:babesgotbytes@gmail.com" method="post">
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name"
-                                        placeholder="Your name..." required>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="Your email..." required>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message"
-                                        placeholder="Your message..." required></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                </fieldset>
-                            </div>
+                        <h1>Contact Me</h1>
+
+                        <form id="contactform" action="//formspree.io/babesgotbytes@gmail.com" method="POST">
+                            Name: <input type="text" name="name" class="email" placeholder="Your name" required>
+                            Email: <input type="email" name="_replyto" class="subject" placeholder="Your email"
+                                required>
+                            Message: <textarea name="message" class="message" placeholder="Your message"
+                                required></textarea>
+                            <input type="submit" class="btn btn-success" value="Send">
                         </form>
+
                     </div>
                 </div>
             </div>
